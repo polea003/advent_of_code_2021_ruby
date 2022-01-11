@@ -1,6 +1,6 @@
 line_num=0
 nums = []
-text=File.open('data/puzzle_1_data').read
+text=File.open('data/day_1_data').read
 # text.gsub!(/\r\n?/, "")
 text.each_line do |line|
   nums.push(line.to_i)
